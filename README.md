@@ -14,11 +14,11 @@ Make sure you have the following software installed on your machine:
 
 ### Installation
 
-Clone the repository to your local machine.
-Navigate to the project directory.
-cd quiz-application
-Install dependencies.
-npm install
-Start the Node.js server to run the quiz application.
-node server.js
-Open your web browser and visit http://localhost:3000/ to access the quiz.
+1.Clone the repository to your local machine.
+2.Navigate to the project directory.
+  cd quiz-application
+3.Install dependencies.
+  npm install
+4.Start the Node.js server to run the quiz application.
+  node server.js
+5.Open your web browser and visit http://localhost:3000/ to access the quiz.
