@@ -22,3 +22,8 @@ Make sure you have the following software installed on your machine:
 4.Start the Node.js server to run the quiz application.
   node server.js
 5.Open your web browser and visit http://localhost:3000/ to access the quiz.
+
+### Usage
+Answer the questions presented in the quiz.
+The timer counts down for each question, and your score is calculated.
+After answering all questions, your final score is displayed.
