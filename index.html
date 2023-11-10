@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Setted the title of the webpage -->
+    <title>Quiz Application</title>
+    
+    <!-- Link to an external stylesheet for styling -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <!-- Main container for the quiz application -->
+    <div class="quiz-container">
+        
+        <!-- Heading for the quiz application -->
+        <h1>Quiz Application</h1>
+
+        <!-- Container for displaying the current question -->
+        <div class="question-container">
+            <!-- Placeholder text for the question (will be updated dynamically) -->
+            <p id="question-text">Loading question...</p>
+
+            <!-- List to display answer options (will be updated dynamically) -->
+            <ul id="options-list">
+                <!-- Options go here -->
+            </ul>
+        </div>
+
+        <!-- Container for information about time and score -->
+        <div class="info-container">
+            
+            <!-- Container for displaying the time left for the current question -->
+            <div class="timer-container">
+                <!-- Display the time left with a dynamic span element -->
+                <p><span id="timer"></span> </p>
+            </div>
+            
+            <!-- Container for displaying the user's score -->
+            <div class="score-container">
+                <!-- Display the user's score with a dynamic span element -->
+                <p><span id="score"></span></p>
+            </div>
+        </div>
+
+        <!-- Container for displaying the final result (initially hidden) -->
+        <div id="result" class="result-container" style="display: none;">
+            <!-- Display the final score with a dynamic span element -->
+            <p>Your Score: <span id="final-score">0</span></p>
+        </div>
+    </div>
+
+    <!-- Include the JavaScript file for the quiz logic -->
+    <script src="quiz.js"></script>
+</body>
+
+</html>
